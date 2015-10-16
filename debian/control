@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Stuart Teasdale <stuart.teasdale@genomicsplc.com>
 Build-Depends: debhelper (>= 8.0.0), libeigen3-dev, libboost-program-options-dev
 Standards-Version: 3.9.4
-Homepage: <insert the upstream URL, if relevant>
 #Vcs-Git: git://git.debian.org/collab-maint/flashpca.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/flashpca.git;a=summary
 
 Package: flashpca
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: genomics tooling
+  .
+
