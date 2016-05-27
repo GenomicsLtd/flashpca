@@ -226,7 +226,6 @@ rbf`).
 * The rest of the options are the same as for standard PCA.
 * Currently, the proportion of variation explained is not computed for kPCA.
 
-## Calling flashpca from R
 ### <a name="scca"></a>Sparse Canonical Correlation Analysis (SCCA)
 
 * flashpca now experimentally supports sparse CCA
@@ -262,7 +261,7 @@ of the canonical components cor(X U, Y V) in independent test data.
    parallel](http://www.gnu.org/software/parallel) is recommended)
 * R code for plotting the correlations [scca_pred.R](scca_pred.R)
 
-# Calling flashpca from R
+# <a name="R"></a>flashpcaR: flashpca in R
 
 flashpca is now available as an independent R package.
 
