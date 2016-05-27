@@ -1,0 +1,12 @@
+Index: flashpca/Makefile
+===================================================================
+--- flashpca.orig/Makefile	2016-05-27 17:25:14.141827284 +0100
++++ flashpca/Makefile	2016-05-27 17:25:49.022022340 +0100
+@@ -66,6 +66,6 @@
+ 	$(CXX) $(CXXFLAGS) -c $< -o $@
+ 
+ clean:
+-	rm -f $(OBJ) $(OBJ2) flashpca flashpca_x86-64
++	rm -f $(OBJ) $(OBJ2) flashpca flashpca_x86-64 predict
+ 
+ 
