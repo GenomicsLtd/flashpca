@@ -23,11 +23,13 @@ Forwarded: <no|not-needed|url proving that it has been forwarded>
 Reviewed-By: <name and email of someone who approved the patch>
 Last-Update: <YYYY-MM-DD>
 
---- flashpca-1.1.2.1.orig/Makefile
-+++ flashpca-1.1.2.1/Makefile
-@@ -22,7 +22,7 @@ UNAME := $(shell uname)
+Index: flashpca/Makefile
+===================================================================
+--- flashpca.orig/Makefile	2016-05-27 17:14:30.458202898 +0100
++++ flashpca/Makefile	2016-05-27 17:14:30.454202876 +0100
+@@ -27,7 +27,7 @@
  ifeq ($(UNAME), Darwin)
-    CXXFLAGS += -msse2
+    CXXFLAGS += -msse2 -DEIGEN_DONT_PARALLELIZE
  else
 -   CXXFLAGS += -march=native
 +   CXXFLAGS += -march=core2
