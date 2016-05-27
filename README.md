@@ -199,7 +199,6 @@ This is done using
 
 The final mean squared error should be low (e.g., <1e-8).
 
-## Calling flashpca from R
 ### <a name="scca"></a>Sparse Canonical Correlation Analysis (SCCA)
 
 * flashpca now supports sparse CCA
@@ -233,7 +232,7 @@ of the canonical components cor(X U, Y V) in independent test data.
    parallel](http://www.gnu.org/software/parallel) is recommended)
 * R code for plotting the correlations [scca_pred.R](scca_pred.R)
 
-# Calling flashpca from R
+# <a name="R"></a>flashpcaR: flashpca in R
 
 FlashPCA can be called (almost) entirely within R.
 
