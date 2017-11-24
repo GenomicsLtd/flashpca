@@ -1,0 +1,19 @@
+Index: flashpca/Makefile
+===================================================================
+--- flashpca.orig/Makefile	2017-11-24 11:41:54.000000000 +0000
++++ flashpca/Makefile	2017-11-24 13:35:40.862487889 +0000
+@@ -3,10 +3,10 @@
+ 
+ VERSION=2.0
+ 
+-EIGEN_INC=/usr/local/include/eigen
+-BOOST_INC=/usr/local/include/boost
+-BOOST_LIB=/usr/local/lib
+-SPECTRA_INC=spectra/include
++EIGEN_INC=/usr/include/eigen3/
++BOOST_INC=/usr/include/boost
++BOOST_LIB=/usr/lib
++SPECTRA_INC=../spectra/include
+ 
+ all: flashpca
+ static: flashpca_x86-64
