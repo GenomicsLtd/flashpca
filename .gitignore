@@ -4,3 +4,7 @@
 .Rhistory
 .Rproj.user
 .pc
+*.bed
+*.bim
+*.fam
+*.log
