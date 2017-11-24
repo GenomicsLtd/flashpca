@@ -1,8 +1,8 @@
-flashpca (1.2.6-1) UNRELEASED; urgency=medium
+flashpca (2.0-1) UNRELEASED; urgency=medium
 
   * New upstream version
 
- -- Stuart Teasdale <stuart.teasdale@genomicsplc.com>  Fri, 27 May 2016 17:14:01 +0100
+ -- Stuart Teasdale <stu@ukulele.oxford.genomicsltd.com>  Fri, 24 Nov 2017 11:16:18 +0000
 
 flashpca (1.1.2.1-1) unstable; urgency=low
 
