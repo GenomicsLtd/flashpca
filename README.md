@@ -232,7 +232,7 @@ of the canonical components cor(X U, Y V) in independent test data.
    parallel](http://www.gnu.org/software/parallel) is recommended)
 * R code for plotting the correlations [scca_pred.R](scca_pred.R)
 
-# <a name="R"></a>flashpcaR: flashpca in R
+# <a name="flashpcaR"></a>flashpcaR: flashpca in R
 
 FlashPCA can be called (almost) entirely within R.
 
