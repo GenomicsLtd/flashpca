@@ -1,8 +1,14 @@
-flashpca (2.0-1) UNRELEASED; urgency=medium
+flashpca (2.0-1xenial1) unstable; urgency=medium
+
+  * Rebuild for Xenial
+
+ -- Stuart Teasdale <stu@oxford.genomicsplc.com>  Tue, 06 Mar 2018 10:15:20 +0000
+
+flashpca (2.0-1) unstable; urgency=medium
 
   * New upstream version
 
- -- Stuart Teasdale <stu@ukulele.oxford.genomicsltd.com>  Fri, 24 Nov 2017 11:16:18 +0000
+ -- Stuart Teasdale <stu@ukulele.oxford.genomicsplc.com>  Fri, 24 Nov 2017 11:16:18 +0000
 
 flashpca (1.1.2.1-1) unstable; urgency=low
 
